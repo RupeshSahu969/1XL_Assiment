@@ -1,6 +1,7 @@
 import React from 'react'
 
 const Category1 = () => {
+  
   return (
     <div>
       
