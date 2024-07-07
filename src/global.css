@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap");
+@font-face {
+  font-family: "Avenir LT Std";
+  src: url("/public/avenir-lt-std_K4mzK.zip");
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-avenir-lt-std: "Avenir LT Std";
+  --font-roboto: Roboto;
+  --font-playfair-display: "Playfair Display";
+
+  /* font sizes */
+  --font-size-3xs: 10px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-13xl: 32px;
+  --font-size-77xl: 96px;
+  --font-size-10xl: 29px;
+  --font-size-29xl: 48px;
+  --font-size-21xl: 40px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-darkslategray: #124c5f;
+  --color-powderblue: #c7e7e1;
+  --color-orange: #ffaa00;
+  --color-gold: #ffe55e;
+
+  /* Gaps */
+  --gap-277xl-8: 296.8px;
+  --gap-55xl: 74px;
+  --gap-129xl: 148px;
+  --gap-35xl-4: 54.4px;
+  --gap-8xl: 27px;
+  --gap-12xs: 1px;
+  --gap-xl: 20px;
+  --gap-10xs: 3px;
+  --gap-38xl: 57px;
+  --gap-9xl: 28px;
+  --gap-51xl-2: 70.2px;
+  --gap-lg: 18px;
+  --gap-16xl: 35px;
+  --gap-21xl: 40px;
+  --gap-8xs: 5px;
+  --gap-mid: 17px;
+  --gap-xs: 12px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-282xl: 301px;
+  --padding-54xl: 73px;
+  --padding-28xl: 47px;
+  --padding-79xl-6: 98.6px;
+  --padding-80xl: 99px;
+  --padding-52xl: 71px;
+  --padding-16xl: 35px;
+  --padding-152xl-6: 171.6px;
+  --padding-37xl: 56px;
+  --padding-153xl: 172px;
+  --padding-33xl: 52px;
+  --padding-93xl: 112px;
+  --padding-144xl-1: 163.1px;
+  --padding-4xs-5: 8.5px;
+  --padding-3xs: 10px;
+  --padding-4xs: 9px;
+  --padding-29xl: 48px;
+  --padding-5xl: 24px;
+  --padding-3xs-1: 9.1px;
+  --padding-mini: 15px;
+  --padding-24xl: 43px;
+  --padding-3xl-1: 22.1px;
+  --padding-12xl: 31px;
+  --padding-mini-6: 14.6px;
+  --padding-3xl: 22px;
+  --padding-113xl: 132px;
+  --padding-4xs-6: 8.6px;
+
+  /* Border radiuses */
+  --br-xs: 12px;
+  --br-8xs: 5px;
+}

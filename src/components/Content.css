@@ -1,0 +1,226 @@
+.profile-child {
+  margin-top: -8.6px;
+  height: 40.3px;
+  width: 38.9px;
+  position: relative;
+}
+.pet-grooming {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.profile,
+.services {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.profile {
+  align-self: stretch;
+  height: 40px;
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslategray);
+  flex-direction: row;
+  padding: var(--padding-4xs-5) var(--padding-3xs) var(--padding-4xs-5) 0;
+  gap: var(--gap-10xs);
+  white-space: nowrap;
+}
+.services {
+  width: 176px;
+  flex-direction: column;
+  padding: var(--padding-144xl-1) 0 0;
+  min-width: 176px;
+}
+.pet-clinic2 {
+  height: 23px;
+  width: 86px;
+  position: relative;
+  display: inline-block;
+  z-index: 3;
+}
+.unsplashzchj-2ljp00-icon7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.clinic-daycare-child,
+.clinic-daycare-item {
+  position: absolute;
+  top: 163px;
+  left: 11px;
+  width: 38.9px;
+  height: 40.3px;
+  z-index: 3;
+}
+.clinic-daycare-item {
+  left: 166px;
+}
+.clinic-daycare1 {
+  height: 557px;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  right: 0;
+  bottom: -61px;
+  left: 0;
+}
+.pet-daycare2 {
+  height: 23px;
+  width: 108px;
+  position: relative;
+  display: inline-block;
+  z-index: 3;
+}
+.services-and-testimonials,
+.services-double {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.services-double {
+  flex: 1;
+  justify-content: space-between;
+  padding: var(--padding-152xl-6) var(--padding-37xl) var(--padding-153xl)
+    var(--padding-33xl);
+  position: relative;
+  min-width: 241px;
+  min-height: 496px;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  color: var(--color-black);
+}
+.services-and-testimonials {
+  margin-left: -674px;
+  width: 619.6px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-52xl) 0 0;
+  gap: var(--gap-12xs);
+  flex-shrink: 0;
+  max-width: 934%;
+  color: var(--color-white);
+}
+.unsplashqb7d1xw28co-icon2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 2;
+}
+.training-content-item {
+  position: absolute;
+  top: 90px;
+  left: 94px;
+  width: 38.9px;
+  height: 40.3px;
+  z-index: 3;
+}
+.training-content1 {
+  height: 484px;
+  width: 253px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -61px;
+  left: -253px;
+}
+.pet-training2 {
+  margin-left: -117.1px;
+  height: 23px;
+  width: 109px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.service,
+.training {
+  width: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.training {
+  flex: 1;
+  flex-direction: row;
+  padding: var(--padding-79xl-6) 0 var(--padding-80xl);
+  position: relative;
+}
+.service {
+  height: 496px;
+  flex-direction: column;
+  padding: var(--padding-54xl) 0 0;
+}
+.scroll4 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.07em;
+  transform: rotate(90deg);
+  flex-shrink: 0;
+  z-index: 1;
+}
+.content,
+.testimonials {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.testimonials {
+  width: 12px;
+  flex-direction: column;
+  padding: var(--padding-282xl) 0 0;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  font-family: var(--font-avenir-lt-std);
+}
+.content {
+  width: 86.4px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) 0 0;
+  gap: var(--gap-35xl-4);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 825px) {
+  .services {
+    flex: 1;
+  }
+  .services-and-testimonials {
+    flex-wrap: wrap;
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+  .service {
+    padding-top: var(--padding-28xl);
+    box-sizing: border-box;
+  }
+  .content {
+    gap: var(--gap-8xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .pet-clinic2,
+  .pet-daycare2 {
+    font-size: var(--font-size-base);
+  }
+  .services-double {
+    flex-wrap: wrap;
+    padding: var(--padding-93xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .pet-training2 {
+    font-size: var(--font-size-base);
+  }
+}
