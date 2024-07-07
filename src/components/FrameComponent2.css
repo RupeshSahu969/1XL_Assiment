@@ -1,0 +1,200 @@
+.taking-care-for4 {
+  margin: 0;
+  width: 1282px;
+  height: 128px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.frame-child6 {
+  margin-top: -8.6px;
+  height: 40.3px;
+  width: 38.9px;
+  position: relative;
+}
+.pet-grooming2 {
+  height: 23px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+}
+.frame-parent1 {
+  height: 40px;
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslategray);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs-5) var(--padding-3xs) var(--padding-4xs-5) 0;
+  box-sizing: border-box;
+  gap: var(--gap-10xs);
+  min-width: 114px;
+  white-space: nowrap;
+  color: var(--color-white);
+}
+.frame-child7 {
+  height: 40.3px;
+  width: 38.9px;
+  position: relative;
+}
+.pet-clinic3 {
+  align-self: stretch;
+  height: 23px;
+  position: relative;
+  display: inline-block;
+}
+.frame-parent2,
+.service-names {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.service-names {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-4xs-6) 0 0;
+}
+.frame-parent2 {
+  width: 143px;
+  flex-direction: row;
+  padding: 0 var(--padding-mini) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-10xs);
+}
+.frame-child8 {
+  height: 40.3px;
+  width: 38.9px;
+  position: relative;
+}
+.pet-daycare3 {
+  align-self: stretch;
+  height: 23px;
+  position: relative;
+  display: inline-block;
+}
+.frame-parent3,
+.pet-daycare-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pet-daycare-wrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-4xs-6) 0 0;
+}
+.frame-parent3 {
+  width: 160px;
+  flex-direction: row;
+  padding: 0 var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-10xs);
+}
+.frame-child9 {
+  height: 40.3px;
+  width: 38.9px;
+  position: relative;
+}
+.pet-training3 {
+  align-self: stretch;
+  height: 23px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.pet-training-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs-6) 0 0;
+}
+.frame-parent4,
+.service-icons,
+.services-grid1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frame-parent4 {
+  width: 150.9px;
+  justify-content: flex-start;
+  gap: var(--gap-10xs);
+}
+.service-icons,
+.services-grid1 {
+  max-width: 100%;
+}
+.service-icons {
+  width: 685.9px;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-xs);
+}
+.services-grid1 {
+  align-self: stretch;
+  justify-content: flex-end;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-roboto);
+}
+.homepage4-inner,
+.taking-care-for-your-pets-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.taking-care-for-your-pets-parent {
+  align-self: stretch;
+  gap: var(--gap-16xl);
+}
+.homepage4-inner {
+  margin-left: -1322.4px;
+  width: 1304.9px;
+  padding: 0 0 var(--padding-113xl);
+  box-sizing: border-box;
+  min-width: 1304.9px;
+  min-height: 335px;
+  text-align: left;
+  font-size: var(--font-size-77xl);
+  color: var(--color-black);
+  font-family: var(--font-playfair-display);
+}
+@media screen and (max-width: 1425px) {
+  .homepage4-inner {
+    flex: 1;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 825px) {
+  .taking-care-for4 {
+    font-size: var(--font-size-29xl);
+  }
+  .service-icons {
+    flex-wrap: wrap;
+  }
+  .taking-care-for-your-pets-parent {
+    gap: var(--gap-mid);
+  }
+}
+@media screen and (max-width: 450px) {
+  .taking-care-for4 {
+    font-size: var(--font-size-10xl);
+  }
+  .pet-clinic3,
+  .pet-daycare3,
+  .pet-training3 {
+    font-size: var(--font-size-base);
+  }
+}
